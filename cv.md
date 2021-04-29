@@ -29,3 +29,9 @@ May 2014 -  Mart 2019
 - maintaining and developing applications
 - correcting errors in the game and work with OpenGL ES
 
+
+## SKILLS
+
+- Programming: Swift, Objective C, C#, C++
+- GIT, Bitbucket, Trello, Xcode, Visual  Studio, Silk Test
+
