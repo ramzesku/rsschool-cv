@@ -35,3 +35,21 @@ May 2014 -  Mart 2019
 - Programming: Swift, Objective C, C#, C++
 - GIT, Bitbucket, Trello, Xcode, Visual  Studio, Silk Test
 
+## CODE EXAMPLE
+
+public protocol RouterProtocol: AnyObject {
+    init(navigationService: NavigationServiceProtocol, flow: FlowProtocol?)
+    func showViewModel<T: ViewModelProtocol>(_ type: T.Type, with: ParameterProtocol?, flow: FlowProtocol?, completion: Action?)
+    func showViewModel<T: ViewModelProtocol>(_ type: T, with: ParameterProtocol?, flow: FlowProtocol?, completion: Action?)
+    func present<T: ViewModelProtocol>(viewModel: T.Type, with: ParameterProtocol?, flow: FlowProtocol?, style: PresentationStyle, completion: Action?)
+    func presentService<T: ViewModelProtocol>(viewModel: T.Type, with: ParameterProtocol?, flow: FlowProtocol?, style: PresentationStyle, animated: Bool, completion: Action?)
+    func closePresented(completion: Action?, animated: Bool)
+
+    func close<T: ViewModelProtocol>(_ : T, completion: Action?)
+    func remove<T: ViewModelProtocol>(_ : T)
+    func remove<T: ViewModelProtocol>(_ : T.Type)
+
+    func next<T: BaseViewModel>(_ : T, with: ParameterProtocol?)
+    func breakFlow<T: BaseViewModel>(_ viewModel: T, with data: ParameterProtocol?)
+}
+
