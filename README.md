@@ -1,2 +1,3 @@
 # rsschool-cv
-RS School
+Android Course - RS School 2021
+https://ramzesku.github.io/rsschool-cv/cv
