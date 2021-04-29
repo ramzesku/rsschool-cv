@@ -53,3 +53,10 @@ public protocol RouterProtocol: AnyObject {
     func breakFlow<T: BaseViewModel>(_ viewModel: T, with data: ParameterProtocol?)
 }
 
+## EDUCATION
+
+### Belarusian National Technical University
+- Engineer’s Degree, Electrical Systems and Networks 
+2003 – 2008
+
+The aim of the Diplom is to develop the algorithm and calculation programs and analysis of the open electrical circuit conditions, having 6-20 kV.
